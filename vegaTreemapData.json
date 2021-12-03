@@ -56,6 +56,219 @@
     "percentage":3.7,
     "parent":1,
     "detail":"servers, networks, computers, screens, devices (manufacture & use)"
+  },
+
+  {"id":11,
+    "name":"Transport"
+
+  },
+
+  {"id":12,
+    "name":"cars and trucks",
+    "percentage":11.9,
+    "parent":11,
+    "detail":"burning of petrol and diesel from all forms of road transport which includes cars, trucks, lorries, motorcycles and buses - if we could electrify the whole road transport sector, and transition to a fully decarbonized electricity mix, we could feasibly reduce global emissions by 11.9%."
+  },
+  {"id":13,
+    "name":"cars motorcycles buses",
+    "percentage":7.1,
+    "parent":11
+
+  },
+  {"id":14,
+    "name":"lorries and trucks",
+    "percentage":4.8,
+    "parent":11
+
+  },
+  {
+    "id":15,
+    "name":"aviation",
+    "percentage":1.9,
+    "detail":"passenger travel and freight, and domestic and international aviation.",
+    "parent":11
+  },
+  {
+    "id":16,
+    "name":"passenger travel",
+    "percentage":1.5,
+    "parent":11
+  },
+  {
+    "id":17,
+    "name":"international",
+    "percentage":0.9,
+    "parent":11
+  },
+  {
+    "id":18,
+    "name":"domestic",
+    "percentage":0.6,
+    "parent":11
+  },
+  {
+    "id":19,
+    "name":"freight",
+    "percentage":0.4,
+    "parent":11
+  },
+  {
+    "id":20,
+    "name":"ships",
+    "percentage":1.7,
+    "detail":"burning of petrol or diesel on boats (passenger & feight)",
+    "parent":11
+  },
+
+  {
+    "id":20,
+    "name":"rail",
+    "percentage":0.4,
+    "detail":"passenger and freight rail travel.",
+    "parent":11
+  },
+  {
+    "id":20,
+    "name":"pipelines",
+    "percentage":0.3,
+    "detail":"fuels and commodities (e.g. oil, gas, water or steam) often need to be transported (either within or between countries) via pipelines. This requires energy inputs, which results in emissions.",
+    "parent":11
+  },
+
+  {
+    "id":21,
+    "name":"Energy Production"
+  },
+
+  {
+    "id":22,
+    "name":"oil natural gas leaks and losses",
+    "percentage":3.9,
+    "detail":"fugitive emissions are the often-accidental leakage of methane to the atmosphere during oil and gas extraction and transportation, from damaged or poorly maintained pipes. This also includes flaring – the intentional burning of gas at oil facilities. Oil wells can release gases, including methane, during extraction – producers often don’t have an existing network of pipelines to transport it, or it wouldn’t make economic sense to provide the infrastructure needed to effectively capture and transport it. But under environmental regulations they need to deal with it somehow: intentionally burning it is often a cheap way to do so.",
+    "parent":21
+  },
+
+  {
+    "id":23,
+    "name":"coal mining leaks and losses",
+    "percentage":1.9,
+    "detail":"accidental leakage of methane during coal mining.",
+    "parent":21
+  },
+
+  {
+    "id":24,
+    "name":"other fuels",
+    "percentage":7.8,
+    "detail":"electricity and heat from biomass; on-site heat sources; combined heat and power (CHP); nuclear industry; and pumped hydroelectric storage.",
+    "parent":21
+  },
+
+  {
+    "id":25,
+    "name":"buildings"
+  },
+
+  {
+    "id":26,
+    "name":"residencial",
+    "percentage":10.9,
+    "detail":"generation of electricity for lighting, appliances, cooking etc. and heating at home..",
+    "parent":25
+  },
+
+  {
+    "id":26,
+    "name":"commercial",
+    "percentage":6.6,
+    "detail":"generation of electricity for lighting, appliances, etc. and heating in commercial buildings such as offices, restaurants, and shops.",
+    "parent":25
+  },
+
+  {
+    "id":27,
+    "name":"waste"
+  },
+
+  {
+    "id":28,
+    "name":"wastewater and sewage",
+    "percentage":1.3,
+    "detail":"organic matter and residues from animals, plants, humans and their waste products can collect in wastewater systems. When this organic matter decomposes it produces methane and nitrous oxide..",
+    "parent":27
+  },
+
+  {
+    "id":29,
+    "name":"landfills",
+    "percentage":1.9,
+    "detail":"landfills are often low-oxygen environments. In these environments, organic matter is converted to methane when it decomposes.",
+    "parent":27
+  },
+
+  {
+    "id":30,
+    "name":"agriculture forestry and land use"
+  },
+
+  {
+    "id":31,
+    "name":"cropland",
+    "percentage":1.4,
+    "detail":"CO2 can be emitted when croplands are degraded; or sequestered when they are restored.",
+    "parent":30
+  },
+
+  {
+    "id":32,
+    "name":"lost grasslands",
+    "percentage":0.1,
+    "detail":"when grassland becomes degraded, these soils can lose carbon, converting to carbon dioxide in the process. Conversely, when grassland is restored (for example, from cropland), carbon can be sequestered. Emissions here therefore refer to the net balance of these carbon losses and gains from grassland biomass and soils.",
+    "parent":30
+  },
+
+  {
+    "id":33,
+    "name":"deforestation",
+    "percentage":2.2,
+    "detail":"changes in forestry cover. This means reforestation is counted as ‘negative emissions’ and deforestation as ‘positive emissions’. Net forestry change is therefore the difference between forestry loss and gain. Emissions are based on lost carbon stores from forests and changes in carbon stores in forest soils.",
+    "parent":30
+  },
+  {
+    "id":34,
+    "name":"crop burning",
+    "percentage":3.5,
+    "detail":"burning of agricultural residues – leftover vegetation from crops such as rice, wheat, sugar cane, and other crops – releases carbon dioxide, nitrous oxide and methane. Farmers often burn crop residues after harvest to prepare land for the resowing of crops.",
+    "parent":30
+  },
+
+  {
+    "id":35,
+    "name":"rice growing",
+    "percentage":1.3,
+    "detail":"landfills are often low-oxygen environments. In these environments, organic matter is converted to methane when it decomposes.",
+    "parent":30
+  },
+  {
+    "id":36,
+    "name":"fertilizers",
+    "percentage":4.1,
+    "detail":"flooded paddy fields produce methane through a process called ‘anaerobic digestion’. Organic matter in the soil is converted to methane due to the low-oxygen environment of water-logged rice fields. 1.3% seems substantial, but it’s important to put this into context: rice accounts for around one-fifth of the world’s supply of calories, and is a staple crop for billions of people globally.",
+    "parent":30
+  },
+  {
+    "id":37,
+    "name":"agricultureal machinery",
+    "percentage":1.7,
+    "detail":"Nitrous oxide – a strong greenhouse gas – is produced when synthetic nitrogen fertilizers are applied to soils.",
+    "parent":30
+  },
+  {
+    "id":38,
+    "name":"livestock manure",
+    "percentage":5.8,
+    "detail":"hey",
+    "parent":30
   }
 
 
