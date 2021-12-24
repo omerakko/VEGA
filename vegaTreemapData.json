@@ -5,7 +5,7 @@
   },
   {
     "id":1,
-    "name":"Industry",
+    "name":"INDUSTRY",
     "parent":0
   },
   {"id":2,
@@ -217,7 +217,7 @@
 
   {
     "id":30,
-    "name":"agriculture forestry and land use",
+    "name":"LAND-USE",
     "parent":0
   },
 
